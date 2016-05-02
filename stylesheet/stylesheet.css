@@ -1,0 +1,75 @@
+a{
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+a:active{
+    color: darkgreen;
+}
+
+h1{
+    font-family: "IM FELL English SC";
+    text-align: center;
+    font-weight: normal;
+    font-size: 180%;
+    color: black;
+    margin: 0% 0%;  
+    background: white;
+    padding: 1em 0.9em;
+        }
+h2{ 
+    font-family: "IM FELL English SC";
+    text-align: center;
+    font-weight: normal;
+    font-size: 130%;
+    background: white;
+    padding: .5em 0.8em;
+    margin: 0% 0%;
+}
+/*h3{
+        font-family: "IM FELL English SC";
+        text-align:center;
+        font-weight: normal;
+        font-size: 120%;
+        background: white;
+        padding: .14em .2em;
+        margin: 8% 22%;
+    }*/
+h4{
+    font-family: "IM FELL English SC";
+    color: black;
+    text-align: center;
+    font-size: 130%;
+    margin: 20% 20%;
+    
+}
+h5{ 
+    font-family: "IM FELL English SC";
+    font-size: 130%;
+    text-align: center;
+    padding: 8.5em 0.5em 1em;
+
+}
+nav ul{
+   
+    background: white; 
+    width: 60%;
+    margin: 12% auto;
+}
+nav ul li{
+    border: 2px;
+    text-align: center;
+    padding: 2% 0 2% 0;
+}
+nav ul li a{
+    font-family: "IM FELL English SC";
+
+}
+p{ 
+font-family: "Avenir Next Condensed";
+font-weight:100;
+}
+    
+
+    
