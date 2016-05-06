@@ -8,15 +8,15 @@ a:active{
     color: darkgreen;
 }
 body{ 
-font-family: "Avenir Next Condensed";
-text-align: center;
-font-weight: 400;
-}
+    font-family: "Avenir Next Condensed";
+    text-align: center;
+    font-weight: 400;
+    }
 p{
-font-family: "Avenir Next Condensed";
-text-align: center;
-font-weight: 400;
-}
+    font-family: "Avenir Next Condensed";
+    text-align: center;
+    font-weight: 400;
+ }
 h1{
     font-family: "IM FELL English SC";
     text-align: center;
@@ -35,7 +35,7 @@ h2{
     background: white;
     padding: .5em 0.8em;
     margin: 0% 0%;
-}
+  }
 /*h3{
         font-family: "IM FELL English SC";
         text-align:center;
@@ -61,7 +61,6 @@ h5{
 
 }
 nav ul{
-   
     background: white; 
     width: 60%;
     margin: 12% auto;
@@ -78,8 +77,10 @@ nav ul li a{
     padding: .5em 1em;
 }
 .contact ul li{
-    padding: .5em 1em;
+    padding: .3em .3em;
 }
-
+div{
+    padding: 2em 2em 1em 2em;
+}
 
     
