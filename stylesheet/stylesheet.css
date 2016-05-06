@@ -7,7 +7,16 @@ a{
 a:active{
     color: darkgreen;
 }
-
+body{ 
+font-family: "Avenir Next Condensed";
+text-align: center;
+font-weight: 400;
+}
+p{
+font-family: "Avenir Next Condensed";
+text-align: center;
+font-weight: 400;
+}
 h1{
     font-family: "IM FELL English SC";
     text-align: center;
@@ -64,13 +73,13 @@ nav ul li{
 }
 nav ul li a{
     font-family: "IM FELL English SC";
+}
+.jobs ul li{
+    padding: .5em 1em;
+}
+.contact ul li{
+    padding: .5em 1em;
+}
 
-}
-p{ 
-font-family: "Avenir Next Condensed";
-font-weight:100;
-text-align: center;
-}
-    
 
     
