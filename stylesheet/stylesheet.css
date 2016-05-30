@@ -95,6 +95,8 @@ div{
     padding: 2em 2em 1em 2em;
 }
 
+
+
 /* for tablets: */
 @media only screen and (min-width: 768px){
     body{
@@ -143,6 +145,12 @@ div{
         margin: 2em 1em 0 3em;
         line-height: 150%;
     }
+     .exper{
+        float: left;
+        width: -25%;
+        margin: 2em 1em 0 3em;
+        line-height: 150%;
+    }
 
     .jobs ul{
         width: 40%;
@@ -169,7 +177,6 @@ div{
         width: 60%;
         float: left;
         color: white;
-        border: 1px solid black;
     }
     .contact ul{
         color: white;
@@ -177,6 +184,7 @@ div{
         float: right;
         border: 1px solid black;
     }
+   
 }
 
 /* For desktop: */
@@ -194,5 +202,6 @@ div{
         width: 25%;
     }
 }
+
 
     
