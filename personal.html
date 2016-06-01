@@ -11,11 +11,12 @@
     <link href='https://fonts.googleapis.com/css?family=IM+Fell+English+SC' rel='stylesheet' type='text/css'>
 <style>
     body{
-        background-image: url("images/sky.jpeg");
-        background-size: 1994px 1360px;
+        background-image: url("images/wood.jpg");
+        background-repeat: repeat;
+        background-size: contain;
         }
     .myclass{
-        width: 600px;
+/*        width: 90%;*/
         margin: 0 auto;
     }
     .myclass img {
@@ -39,17 +40,20 @@
 </nav>
     
     <div class="aboutme">
-         <p> I am 21 years old and I have accomplished many goals throughout my life so far. But, this life has so much to offer and I have many more plans and goals that I hope to fulfill during my time on earth. One of my biggest accomplishments was studying abroad in Spain. My study abroad experience was a huge learning experience where I was placed outside of my comfort zone. During my trip I learned to love cultures, languages, traveling alone and with friends, and also relying completely on myself. <br> I love to travel and after studying abroad, my desire to travel has increased.</p>
-      </div> 
+         <p>I am 21 years old and I have accomplished many goals throughout my life so far. But, this life has so much to offer and I have many more plans and goals that I hope to fulfill during my time on earth. One of my biggest accomplishments was studying abroad in Spain. My study abroad experience was a huge learning experience where I was placed outside of my comfort zone. During my trip I learned to love cultures, languages, traveling alone and with friends, and also relying completely on myself. I love to travel and after studying abroad, my desire to travel has increased.</p>
+    </div> 
+    <div class="abroad">
+        <p>While I was abroad, I had the opportunity to live with a host family. This placed me out of my comfort zone, but it was such an amazing experience. I was able to live with a family who only spoke Spanish. This family cooked for me everyday so I was able to eat authentic Spanish foods. I also took all of my classes in Spanish and even participated in a surfing class. I cannot wait to see what other adventures I will get to experience in the near future.</p>
+    </div>
     <div class="myclass">
-    <div><img src="images/pyrenees.jpg" alt="pyrenees" width="500" height="400"></div>
-    <div><img src="images/peru.jpg" alt="peru" width="500" height="400"></div>
-    <div><img src="images/cow.jpg" alt="cow" width="500" height="400"></div>
-    <div><img src="images/supai.jpg" alt="supai" width="450" height="400"></div>
+    <div><img src="images/pyrenees.jpg" alt="pyrenees"></div>
+    <div><img src="images/peru.jpg" alt="peru"></div>
+    <div><img src="images/cow.jpg" alt="cow"></div>
+    <div><img src="images/supai.jpg" alt="supai"></div>
     </div>
     
     <div class="bottom">
-    <a href="../index.html"><p>Back to Home Page</p></a>
+    <a href="index.html"><p>Back to Home Page</p></a>
     </div>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.minjs"></script>
@@ -59,10 +63,29 @@
     $(document).ready(function(){
     $('.myclass').slick({
         fade: true,
+        arrows: true, 
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        cssEase: 'linear'
+        cssEase: 'linear',
+        responsive: [
+            {
+                breakpoint: 1024,
+                setting: {
+                    arrows: true,
+                    slidesToScroll: 1,
+                    fade: true,
+                }
+            },
+            {
+                brakpoints: 768,
+                setting: {
+                    arrows: true,
+                    slidesToScroll: 1,
+                    fade: true,
+                }
+            }
+        ]
         });
     });
     </script>

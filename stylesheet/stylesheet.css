@@ -67,7 +67,6 @@ h5{
     font-size: 130%;
     text-align: center;
     padding: 8.5em 0.5em 1em;
-
 }
 nav ul{
     background: white; 
@@ -83,19 +82,21 @@ nav ul li a{
     font-family: "IM FELL English SC";
 }
 .jobs ul li{
-    padding: .5em 1em;
+    padding: .5em;
+    
 }
 .contact ul li{
     padding: .3em .3em;
 }
+.exper{
+    width: 90%;
+}
 .prof{
-    padding: 0 0 0 0;
+    width: 90%;
 }
 div{
     padding: 2em 2em 1em 2em;
 }
-
-
 
 /* for tablets: */
 @media only screen and (min-width: 768px){
@@ -111,8 +112,8 @@ div{
         padding: 3em 0 0 0;
     }
     .flower img{
-        margin: -2.5em 0 0 0;
-        width: 30%;
+      margin: -2.5em 0 0 0;
+      width: 30%;
     }
     h2{ 
         background: none;
@@ -125,8 +126,8 @@ div{
         position: relative;
         left: 50%;
         margin: -.25em 0 0 0;
+        padding-bottom: 5%;
     }
-
     nav ul li{
         display: inline-block;
         width: 22.5%;
@@ -134,11 +135,17 @@ div{
         right: 50%;
         background-color: white;
     }
-
     h5 {
         padding: 4em 0 .5em 1em;
     }
-
+    .hola_hello{
+        float: left;
+        width: 48%;
+    }
+    .more_hola{
+        float: left:
+        width: 45%;
+    }
     .prof{
         width: 50%;
         float: left;
@@ -147,44 +154,45 @@ div{
     }
      .exper{
         float: left;
-        width: -25%;
+        width: 50%;
         margin: 2em 1em 0 3em;
         line-height: 150%;
     }
-
     .jobs ul{
-        width: 40%;
+        width: 30%;
         float: left;
-        margin: 1.5em 0 0 0;
+        margin: auto;
     }
-
+    .images{
+        float: center;
+    }
     .bottom {
         clear: both;
         border: .5px solid black;
         margin: 41%;
-        padding: .5em .5em .5em .5em;
-        
+        padding: .5em .5em .5em .5em;   
     }
-    
     .aboutme{
-        margin: 1.5em 0 0 0;
+        float: left;
+        width: 45%;
     }
-    
+    .abroad{
+        float: right;
+        width: 40%;
+        padding-top: 10%;
+    }
     .contactme{
         margin: 1.5em 0 0 0;
     }
     .contactme p{
         width: 60%;
         float: left;
-        color: white;
     }
     .contact ul{
-        color: white;
+        color: black;
         width: 20%;
         float: right;
-        border: 1px solid black;
     }
-   
 }
 
 /* For desktop: */
@@ -193,13 +201,23 @@ div{
     h1{
         font-size: 230%;
     }
-    
     .jobs ul li{
         padding: .5em 1em;
     }
-    
     .flower img{
-        width: 25%;
+       width: 25%;
+    }
+     .hola_hello{
+        float: left;
+        width: 30%;
+    }
+    .more_hola{
+        float: left:
+        width: 30%;
+    }
+     .versailles{
+        float: left;
+        width: 30%;
     }
 }
 
