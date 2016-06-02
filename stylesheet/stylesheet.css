@@ -147,21 +147,25 @@ div{
         text-align: center;
     }
     .prof{
-        width: 50%;
+        width: 45%;
         float: left;
-        margin: 2em 1em 0 3em;
+        margin: 2em 2em 0 3em;
         line-height: 150%;
     }
      .exper{
         float: left;
-        width: 50%;
-        margin: 2em 1em 0 3em;
+        width: 45%;
+        margin: 2em 0 0 3em;
         line-height: 150%;
     }
     .jobs ul{
-        width: 30%;
+        width: 25%;
         float: left;
-        margin: auto;
+        margin: -4em 0 0 0;
+    }
+    .resume{ 
+        clear: both; 
+        padding: 0;
     }
     .images{
         float: center;
@@ -184,13 +188,26 @@ div{
         margin: 1.5em 0 0 0;
     }
     .contactme p{
-        width: 60%;
+        width: 50%;
         float: left;
     }
     .contact ul{
         color: black;
-        width: 20%;
-        float: right;
+        clear: both;
+    }
+    .business{
+        display: block;
+    }
+    .sticker{
+        display: block;
+    }
+    .poster{
+        display: block;
+    }
+    .resume_again{
+        float: left;
+        width: 40%;
+        padding: 0;
     }
 }
 
@@ -201,26 +218,53 @@ div{
         font-size: 230%;
     }
     .jobs ul li{
-        padding: .5em 1em;
+       padding: .5em 1em;
     }
     .flower img{
        width: 25%;
     }
      .hola_hello{
         float: left;
-        width: 30%;
+        width: 25%;
     }
     .more_hola{
         float: left;
-        width: 30%;
+        width: 25%;
     }
      .versailles{
         float: left;
-        width: %;
+        width: 10%;
         padding: 0;
     }
     .enjoy{
         clear: both;
+    }
+    .resume{
+        float: right;
+        width 5%;
+        margin: -14em 6em 0 2em;
+    }
+    .business{
+        clear: both;
+        display: block;
+    }
+    .sticker {
+        clear: both;
+        display: block;
+    }
+    .poster{
+        clear: both;
+        display: block;
+    }
+    .contactme p{
+        width: 40%;
+        float: left;
+    }
+    .resume2{
+        float: right;
+        width: 5%;
+        padding: 0;
+        margin: 0 5em 0 2em;
     }
 }
 
