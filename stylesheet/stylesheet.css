@@ -59,8 +59,7 @@ h4{
     color: black;
     text-align: center;
     font-size: 130%;
-    margin: 20% 20%;
-    
+    margin: 20% 20%;    
 }
 h5{ 
     font-family: "IM FELL English SC";
@@ -82,8 +81,7 @@ nav ul li a{
     font-family: "IM FELL English SC";
 }
 .jobs ul li{
-    padding: .5em;
-    
+    padding: .5em;  
 }
 .contact ul li{
     padding: .3em .3em;
@@ -140,11 +138,13 @@ div{
     }
     .hola_hello{
         float: left;
-        width: 48%;
+        width: 40%;
+        text-align: center;
     }
     .more_hola{
-        float: left:
-        width: 45%;
+        float: right;
+        width: 40%;
+        text-align: center;
     }
     .prof{
         width: 50%;
@@ -174,12 +174,11 @@ div{
     }
     .aboutme{
         float: left;
-        width: 45%;
+        width: 38%;
     }
     .abroad{
         float: right;
-        width: 40%;
-        padding-top: 10%;
+        width: 38%;
     }
     .contactme{
         margin: 1.5em 0 0 0;
@@ -212,12 +211,16 @@ div{
         width: 30%;
     }
     .more_hola{
-        float: left:
+        float: left;
         width: 30%;
     }
      .versailles{
         float: left;
-        width: 30%;
+        width: %;
+        padding: 0;
+    }
+    .enjoy{
+        clear: both;
     }
 }
 
